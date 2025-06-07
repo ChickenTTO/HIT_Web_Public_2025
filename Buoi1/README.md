@@ -19,12 +19,16 @@
 [Visual studio code](https://code.visualstudio.com/)
 ##### 2. Extensions
 - HTML CSS Support 
+
 ![example](htmlsp.png)
 - Live sever 
+
 ![example](livesv.png)
 - Auto Close Tag
+
 ![example](att.png)
 - Auto Rename Tag
+
 ![example](atr.png)
 #### II. Git & Github
 ---
@@ -95,19 +99,29 @@ b. Liên kết Git và Github
 - Giúp sao lưu dữ liệu tránh trường hợp dữ liệu bị mất hay máy tính hỏng học
 - Giúp chia sẻ mã nguồn và làm việc nhóm với các công cụ, tính năng giúp kiểm soát mã nguồn, xử lý lỗi
 1. Tạo tài khoản Github và tạo repo mới
-- Sau khi tạo tài khoản để tạo một repo mới làm được nhấn vào button `new` như hình này: ![example](new.png)
-- Sau khi vào trang chính của tạo repo chúng ta đặt tên cho repo chuẩn bị tạo bằng cách nhập tên vào ô `input` như hình": ![example](name.png)
+- Sau khi tạo tài khoản để tạo một repo mới làm được nhấn vào button `new` như hình này: 
+
+![example](new.png)
+- Sau khi vào trang chính của tạo repo chúng ta đặt tên cho repo chuẩn bị tạo bằng cách nhập tên vào ô `input` như hình": 
+
+![example](name.png)
 - Cuối cùng kéo xuống dưới và nhấn vào `Create repository`: 
+
 ![example](create.png)
 2. Kết nối folder trong máy tính với repo trên Github
 B1: Tạo một folder bất kỳ trên Laptop 
+
 ![example](tao.png)
 B2: Click chuột phải vào folder vừa tạo chọn `Show more options` sau đó chọn `Git Bash`:
+
 ![example](bash.png)
 B3: Sau khi hiển thị bảng như hình 
+
 ![alt text](table.png)
 thì chúng ta copy code ở gitHub vào đó 
+
 ![alt text](copy.png) 
+
 ![alt text](run.png) 
 B4: Sau khi code chạy xong load lại trang ở gitHub
 3. Github Page
@@ -128,15 +142,20 @@ B3: Copy đoạn code sau vào file vừa tạo.
 </html>
 ```
 B4: Quay trở lại gitHub sau đó nhấn vào mục `Setting`
+
 ![alt text](st.png) 
 B5: Chọn vào phần Page 
+
 ![alt text](page.png)
 B6: Ở phần `Branch` chọn `main` như ảnh:
+
 ![alt text](pg.png)
 B7: Nhấn vào button `Save` bên cạnh
 B8: Đợi 1 lúc sau đó nhần vào `Visit site`
+
 ![alt text](visit.png)
 B9: Thêm `index.html` (tên file vừa tạo ở bước 2)
+
 ![alt text](add.png)
 #### III. HTML, CSS
 ---
