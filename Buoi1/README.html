@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet"
+            href="file:///c:\Users\datch\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.18\crossnote\dependencies\katex\katex.min.css">
+
+
+
+
+
+      <style>
+            code[class*=language-],
+            pre[class*=language-] {
+                  color: #333;
+                  background: 0 0;
+                  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+                  text-align: left;
+                  white-space: pre;
+                  word-spacing: normal;
+                  word-break: normal;
+                  word-wrap: normal;
+                  line-height: 1.4;
+                  -moz-tab-size: 8;
+                  -o-tab-size: 8;
+                  tab-size: 8;
+                  -webkit-hyphens: none;
+                  -moz-hyphens: none;
+                  -ms-hyphens: none;
+                  hyphens: none
+            }
+
+            pre[class*=language-] {
+                  padding: .8em;
+                  overflow: auto;
+                  border-radius: 3px;
+                  background: #f5f5f5
+            }
+
+            :not(pre)>code[class*=language-] {
+                  padding: .1em;
+                  border-radius: .3em;
+                  white-space: normal;
+                  background: #f5f5f5
+            }
+
+            .token.blockquote,
+            .token.comment {
+                  color: #969896
+            }
+
+            .token.cdata {
+                  color: #183691
+            }
+
+            .token.doctype,
+            .token.macro.property,
+            .token.punctuation,
+            .token.variable {
+                  color: #333
+            }
+
+            .token.builtin,
+            .token.important,
+            .token.keyword,
+            .token.operator,
+            .token.rule {
+                  color: #a71d5d
+            }
+
+            .token.attr-value,
+            .token.regex,
+            .token.string,
+            .token.url {
+                  color: #183691
+            }
+
+            .token.atrule,
+            .token.boolean,
+            .token.code,
+            .token.command,
+            .token.constant,
+            .token.entity,
+            .token.number,
+            .token.property,
+            .token.symbol {
+                  color: #0086b3
+            }
+
+            .token.prolog,
+            .token.selector,
+            .token.tag {
+                  color: #63a35c
+            }
+
+            .token.attr-name,
+            .token.class,
+            .token.class-name,
+            .token.function,
+            .token.id,
+            .token.namespace,
+            .token.pseudo-class,
+            .token.pseudo-element,
+            .token.url-reference .token.variable {
+                  color: #795da3
+            }
+
+            .token.entity {
+                  cursor: help
+            }
+
+            .token.title,
+            .token.title .token.punctuation {
+                  font-weight: 700;
+                  color: #1d3e81
+            }
+
+            .token.list {
+                  color: #ed6a43
+            }
+
+            .token.inserted {
+                  background-color: #eaffea;
+                  color: #55a532
+            }
+
+            .token.deleted {
+                  background-color: #ffecec;
+                  color: #bd2c00
+            }
+
+            .token.bold {
+                  font-weight: 700
+            }
+
+            .token.italic {
+                  font-style: italic
+            }
+
+            .language-json .token.property {
+                  color: #183691
+            }
+
+            .language-markup .token.tag .token.punctuation {
+                  color: #333
+            }
+
+            .language-css .token.function,
+            code.language-css {
+                  color: #0086b3
+            }
+
+            .language-yaml .token.atrule {
+                  color: #63a35c
+            }
+
+            code.language-yaml {
+                  color: #183691
+            }
+
+            .language-ruby .token.function {
+                  color: #333
+            }
+
+            .language-markdown .token.url {
+                  color: #795da3
+            }
+
+            .language-makefile .token.symbol {
+                  color: #795da3
+            }
+
+            .language-makefile .token.variable {
+                  color: #183691
+            }
+
+            .language-makefile .token.builtin {
+                  color: #0086b3
+            }
+
+            .language-bash .token.keyword {
+                  color: #0086b3
+            }
+
+            pre[data-line] {
+                  position: relative;
+                  padding: 1em 0 1em 3em
+            }
+
+            pre[data-line] .line-highlight-wrapper {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  background-color: transparent;
+                  display: block;
+                  width: 100%
+            }
+
+            pre[data-line] .line-highlight {
+                  position: absolute;
+                  left: 0;
+                  right: 0;
+                  padding: inherit 0;
+                  margin-top: 1em;
+                  background: hsla(24, 20%, 50%, .08);
+                  background: linear-gradient(to right, hsla(24, 20%, 50%, .1) 70%, hsla(24, 20%, 50%, 0));
+                  pointer-events: none;
+                  line-height: inherit;
+                  white-space: pre
+            }
+
+            pre[data-line] .line-highlight:before,
+            pre[data-line] .line-highlight[data-end]:after {
+                  content: attr(data-start);
+                  position: absolute;
+                  top: .4em;
+                  left: .6em;
+                  min-width: 1em;
+                  padding: 0 .5em;
+                  background-color: hsla(24, 20%, 50%, .4);
+                  color: #f4f1ef;
+                  font: bold 65%/1.5 sans-serif;
+                  text-align: center;
+                  vertical-align: .3em;
+                  border-radius: 999px;
+                  text-shadow: none;
+                  box-shadow: 0 1px #fff
+            }
+
+            pre[data-line] .line-highlight[data-end]:after {
+                  content: attr(data-end);
+                  top: auto;
+                  bottom: .4em
+            }
+
+            html body {
+                  font-family: 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, freesans, sans-serif;
+                  font-size: 16px;
+                  line-height: 1.6;
+                  color: #333;
+                  background-color: #fff;
+                  overflow: initial;
+                  box-sizing: border-box;
+                  word-wrap: break-word
+            }
+
+            html body>:first-child {
+                  margin-top: 0
+            }
+
+            html body h1,
+            html body h2,
+            html body h3,
+            html body h4,
+            html body h5,
+            html body h6 {
+                  line-height: 1.2;
+                  margin-top: 1em;
+                  margin-bottom: 16px;
+                  color: #000
+            }
+
+            html body h1 {
+                  font-size: 2.25em;
+                  font-weight: 300;
+                  padding-bottom: .3em
+            }
+
+            html body h2 {
+                  font-size: 1.75em;
+                  font-weight: 400;
+                  padding-bottom: .3em
+            }
+
+            html body h3 {
+                  font-size: 1.5em;
+                  font-weight: 500
+            }
+
+            html body h4 {
+                  font-size: 1.25em;
+                  font-weight: 600
+            }
+
+            html body h5 {
+                  font-size: 1.1em;
+                  font-weight: 600
+            }
+
+            html body h6 {
+                  font-size: 1em;
+                  font-weight: 600
+            }
+
+            html body h1,
+            html body h2,
+            html body h3,
+            html body h4,
+            html body h5 {
+                  font-weight: 600
+            }
+
+            html body h5 {
+                  font-size: 1em
+            }
+
+            html body h6 {
+                  color: #5c5c5c
+            }
+
+            html body strong {
+                  color: #000
+            }
+
+            html body del {
+                  color: #5c5c5c
+            }
+
+            html body a:not([href]) {
+                  color: inherit;
+                  text-decoration: none
+            }
+
+            html body a {
+                  color: #08c;
+                  text-decoration: none
+            }
+
+            html body a:hover {
+                  color: #00a3f5;
+                  text-decoration: none
+            }
+
+            html body img {
+                  max-width: 100%
+            }
+
+            html body>p {
+                  margin-top: 0;
+                  margin-bottom: 16px;
+                  word-wrap: break-word
+            }
+
+            html body>ol,
+            html body>ul {
+                  margin-bottom: 16px
+            }
+
+            html body ol,
+            html body ul {
+                  padding-left: 2em
+            }
+
+            html body ol.no-list,
+            html body ul.no-list {
+                  padding: 0;
+                  list-style-type: none
+            }
+
+            html body ol ol,
+            html body ol ul,
+            html body ul ol,
+            html body ul ul {
+                  margin-top: 0;
+                  margin-bottom: 0
+            }
+
+            html body li {
+                  margin-bottom: 0
+            }
+
+            html body li.task-list-item {
+                  list-style: none
+            }
+
+            html body li>p {
+                  margin-top: 0;
+                  margin-bottom: 0
+            }
+
+            html body .task-list-item-checkbox {
+                  margin: 0 .2em .25em -1.8em;
+                  vertical-align: middle
+            }
+
+            html body .task-list-item-checkbox:hover {
+                  cursor: pointer
+            }
+
+            html body blockquote {
+                  margin: 16px 0;
+                  font-size: inherit;
+                  padding: 0 15px;
+                  color: #5c5c5c;
+                  background-color: #f0f0f0;
+                  border-left: 4px solid #d6d6d6
+            }
+
+            html body blockquote>:first-child {
+                  margin-top: 0
+            }
+
+            html body blockquote>:last-child {
+                  margin-bottom: 0
+            }
+
+            html body hr {
+                  height: 4px;
+                  margin: 32px 0;
+                  background-color: #d6d6d6;
+                  border: 0 none
+            }
+
+            html body table {
+                  margin: 10px 0 15px 0;
+                  border-collapse: collapse;
+                  border-spacing: 0;
+                  display: block;
+                  width: 100%;
+                  overflow: auto;
+                  word-break: normal;
+                  word-break: keep-all
+            }
+
+            html body table th {
+                  font-weight: 700;
+                  color: #000
+            }
+
+            html body table td,
+            html body table th {
+                  border: 1px solid #d6d6d6;
+                  padding: 6px 13px
+            }
+
+            html body dl {
+                  padding: 0
+            }
+
+            html body dl dt {
+                  padding: 0;
+                  margin-top: 16px;
+                  font-size: 1em;
+                  font-style: italic;
+                  font-weight: 700
+            }
+
+            html body dl dd {
+                  padding: 0 16px;
+                  margin-bottom: 16px
+            }
+
+            html body code {
+                  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+                  font-size: .85em;
+                  color: #000;
+                  background-color: #f0f0f0;
+                  border-radius: 3px;
+                  padding: .2em 0
+            }
+
+            html body code::after,
+            html body code::before {
+                  letter-spacing: -.2em;
+                  content: '\00a0'
+            }
+
+            html body pre>code {
+                  padding: 0;
+                  margin: 0;
+                  word-break: normal;
+                  white-space: pre;
+                  background: 0 0;
+                  border: 0
+            }
+
+            html body .highlight {
+                  margin-bottom: 16px
+            }
+
+            html body .highlight pre,
+            html body pre {
+                  padding: 1em;
+                  overflow: auto;
+                  line-height: 1.45;
+                  border: #d6d6d6;
+                  border-radius: 3px
+            }
+
+            html body .highlight pre {
+                  margin-bottom: 0;
+                  word-break: normal
+            }
+
+            html body pre code,
+            html body pre tt {
+                  display: inline;
+                  max-width: initial;
+                  padding: 0;
+                  margin: 0;
+                  overflow: initial;
+                  line-height: inherit;
+                  word-wrap: normal;
+                  background-color: transparent;
+                  border: 0
+            }
+
+            html body pre code:after,
+            html body pre code:before,
+            html body pre tt:after,
+            html body pre tt:before {
+                  content: normal
+            }
+
+            html body blockquote,
+            html body dl,
+            html body ol,
+            html body p,
+            html body pre,
+            html body ul {
+                  margin-top: 0;
+                  margin-bottom: 16px
+            }
+
+            html body kbd {
+                  color: #000;
+                  border: 1px solid #d6d6d6;
+                  border-bottom: 2px solid #c7c7c7;
+                  padding: 2px 4px;
+                  background-color: #f0f0f0;
+                  border-radius: 3px
+            }
+
+            @media print {
+                  html body {
+                        background-color: #fff
+                  }
+
+                  html body h1,
+                  html body h2,
+                  html body h3,
+                  html body h4,
+                  html body h5,
+                  html body h6 {
+                        color: #000;
+                        page-break-after: avoid
+                  }
+
+                  html body blockquote {
+                        color: #5c5c5c
+                  }
+
+                  html body pre {
+                        page-break-inside: avoid
+                  }
+
+                  html body table {
+                        display: table
+                  }
+
+                  html body img {
+                        display: block;
+                        max-width: 100%;
+                        max-height: 100%
+                  }
+
+                  html body code,
+                  html body pre {
+                        word-wrap: break-word;
+                        white-space: pre
+                  }
+            }
+
+            .markdown-preview {
+                  width: 100%;
+                  height: 100%;
+                  box-sizing: border-box
+            }
+
+            .markdown-preview ul {
+                  list-style: disc
+            }
+
+            .markdown-preview ul ul {
+                  list-style: circle
+            }
+
+            .markdown-preview ul ul ul {
+                  list-style: square
+            }
+
+            .markdown-preview ol {
+                  list-style: decimal
+            }
+
+            .markdown-preview ol ol,
+            .markdown-preview ul ol {
+                  list-style-type: lower-roman
+            }
+
+            .markdown-preview ol ol ol,
+            .markdown-preview ol ul ol,
+            .markdown-preview ul ol ol,
+            .markdown-preview ul ul ol {
+                  list-style-type: lower-alpha
+            }
+
+            .markdown-preview .newpage,
+            .markdown-preview .pagebreak {
+                  page-break-before: always
+            }
+
+            .markdown-preview pre.line-numbers {
+                  position: relative;
+                  padding-left: 3.8em;
+                  counter-reset: linenumber
+            }
+
+            .markdown-preview pre.line-numbers>code {
+                  position: relative
+            }
+
+            .markdown-preview pre.line-numbers .line-numbers-rows {
+                  position: absolute;
+                  pointer-events: none;
+                  top: 1em;
+                  font-size: 100%;
+                  left: 0;
+                  width: 3em;
+                  letter-spacing: -1px;
+                  border-right: 1px solid #999;
+                  -webkit-user-select: none;
+                  -moz-user-select: none;
+                  -ms-user-select: none;
+                  user-select: none
+            }
+
+            .markdown-preview pre.line-numbers .line-numbers-rows>span {
+                  pointer-events: none;
+                  display: block;
+                  counter-increment: linenumber
+            }
+
+            .markdown-preview pre.line-numbers .line-numbers-rows>span:before {
+                  content: counter(linenumber);
+                  color: #999;
+                  display: block;
+                  padding-right: .8em;
+                  text-align: right
+            }
+
+            .markdown-preview .mathjax-exps .MathJax_Display {
+                  text-align: center !important
+            }
+
+            .markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group {
+                  display: none
+            }
+
+            .markdown-preview:not([data-for=preview]) .code-chunk .status {
+                  display: none
+            }
+
+            .markdown-preview:not([data-for=preview]) .code-chunk .output-div {
+                  margin-bottom: 16px
+            }
+
+            .markdown-preview .md-toc {
+                  padding: 0
+            }
+
+            .markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link {
+                  display: inline;
+                  padding: .25rem 0
+            }
+
+            .markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,
+            .markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p {
+                  display: inline
+            }
+
+            .markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link {
+                  font-weight: 800
+            }
+
+            .scrollbar-style::-webkit-scrollbar {
+                  width: 8px
+            }
+
+            .scrollbar-style::-webkit-scrollbar-track {
+                  border-radius: 10px;
+                  background-color: transparent
+            }
+
+            .scrollbar-style::-webkit-scrollbar-thumb {
+                  border-radius: 5px;
+                  background-color: rgba(150, 150, 150, .66);
+                  border: 4px solid rgba(150, 150, 150, .66);
+                  background-clip: content-box
+            }
+
+            html body[for=html-export]:not([data-presentation-mode]) {
+                  position: relative;
+                  width: 100%;
+                  height: 100%;
+                  top: 0;
+                  left: 0;
+                  margin: 0;
+                  padding: 0;
+                  overflow: auto
+            }
+
+            html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
+                  position: relative;
+                  top: 0;
+                  min-height: 100vh
+            }
+
+            @media screen and (min-width:914px) {
+                  html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
+                        padding: 2em calc(50% - 457px + 2em)
+                  }
+            }
+
+            @media screen and (max-width:914px) {
+                  html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
+                        padding: 2em
+                  }
+            }
+
+            @media screen and (max-width:450px) {
+                  html body[for=html-export]:not([data-presentation-mode]) .markdown-preview {
+                        font-size: 14px !important;
+                        padding: 1em
+                  }
+            }
+
+            @media print {
+                  html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn {
+                        display: none
+                  }
+            }
+
+            html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn {
+                  position: fixed;
+                  bottom: 8px;
+                  left: 8px;
+                  font-size: 28px;
+                  cursor: pointer;
+                  color: inherit;
+                  z-index: 99;
+                  width: 32px;
+                  text-align: center;
+                  opacity: .4
+            }
+
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn {
+                  opacity: 1
+            }
+
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc {
+                  position: fixed;
+                  top: 0;
+                  left: 0;
+                  width: 300px;
+                  height: 100%;
+                  padding: 32px 0 48px 0;
+                  font-size: 14px;
+                  box-shadow: 0 0 4px rgba(150, 150, 150, .33);
+                  box-sizing: border-box;
+                  overflow: auto;
+                  background-color: inherit
+            }
+
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar {
+                  width: 8px
+            }
+
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track {
+                  border-radius: 10px;
+                  background-color: transparent
+            }
+
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb {
+                  border-radius: 5px;
+                  background-color: rgba(150, 150, 150, .66);
+                  border: 4px solid rgba(150, 150, 150, .66);
+                  background-clip: content-box
+            }
+
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a {
+                  text-decoration: none
+            }
+
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc {
+                  padding: 0 16px
+            }
+
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link {
+                  display: inline;
+                  padding: .25rem 0
+            }
+
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p {
+                  display: inline
+            }
+
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link {
+                  font-weight: 800
+            }
+
+            html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
+                  left: 300px;
+                  width: calc(100% - 300px);
+                  padding: 2em calc(50% - 457px - 300px / 2);
+                  margin: 0;
+                  box-sizing: border-box
+            }
+
+            @media screen and (max-width:1274px) {
+                  html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
+                        padding: 2em
+                  }
+            }
+
+            @media screen and (max-width:450px) {
+                  html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
+                        width: 100%
+                  }
+            }
+
+            html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview {
+                  left: 50%;
+                  transform: translateX(-50%)
+            }
+
+            html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc {
+                  display: none
+            }
+
+            /* Please visit the URL below for more information: */
+            /*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+      </style>
+      <!-- The content below will be included at the end of the <head> element. -->
+      <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function () {
+                  // your code here
+            });
+      </script>
+</head>
+
+<body for="html-export">
+
+
+      <div class="crossnote markdown-preview  ">
+
+            <h1 id="lộ-trình-lớp-web-public-hè-2025">Lộ trình lớp web public hè 2025 </h1>
+            <hr>
+            <h4 id="buổi-1--giới-thiệu-cài-đặt-ide-và-extensions">Buổi 1 : Giới thiệu cài đặt IDE và Extensions </h4>
+            <h4 id="buổi-2-cấu-trúc-html-cơ-bản--semantic-html">Buổi 2: Cấu trúc HTML cơ bản &amp; Semantic HTML </h4>
+            <h4 id="buổi-3-giới-thiệu-css--cách-style-cơ-bản">Buổi 3: Giới thiệu CSS &amp; Cách style cơ bản </h4>
+            <h4 id="buổi-4-làm-việc-với-font-biến-bộ-chọn--quy-tắc-đặt-tên-trong-css">Buổi 4: Làm việc với Font, Biến,
+                  Bộ chọn &amp; Quy tắc đặt tên trong CSS </h4>
+            <h4 id="buổi-5kỹ-thuật-chia-layout-với-flexbox">Buổi 5:Kỹ thuật chia layout với Flexbox </h4>
+            <h4 id="buổi-6-position-animation-transition">Buổi 6: Position, Animation, Transition </h4>
+            <h4 id="buổi-7-css-grid--thiết-kế-giao-diện-responsive">Buổi 7: CSS Grid &amp; Thiết kế giao diện Responsive
+            </h4>
+            <h4 id="buổi-8-ôn-tập-tổng-hợp--kiểm-tra-cuối-khóa">Buổi 8: Ôn tập tổng hợp &amp; Kiểm tra cuối khóa </h4>
+            <hr>
+            <h2 id="buổi-1-giới-thiệu-cài-đặt-ide-và-extensions">Buổi 1: Giới thiệu cài đặt IDE và Extensions </h2>
+            <hr>
+            <h4 id="i-cài-đặt-ide-extensions">I. Cài đặt IDE, Extensions </h4>
+            <hr>
+            <h5 id="1-ide">1. IDE </h5>
+            <p><a href="https://code.visualstudio.com/">Visual studio code</a></p>
+            <h5 id="2-extensions">2. Extensions </h5>
+            <ul>
+                  <li>HTML CSS Support</li>
+            </ul>
+            <p><img src="htmlsp.png" alt="example"></p>
+            <ul>
+                  <li>Live sever</li>
+            </ul>
+            <p><img src="livesv.png" alt="example"></p>
+            <ul>
+                  <li>Auto Close Tag</li>
+            </ul>
+            <p><img src="att.png" alt="example"></p>
+            <ul>
+                  <li>Auto Rename Tag</li>
+            </ul>
+            <p><img src="atr.png" alt="example"></p>
+            <h4 id="ii-git--github">II. Git &amp; Github </h4>
+            <hr>
+            <h5 id="1-git">1. Git </h5>
+            <p>a. Git là gì? Git là hệ thống quản lý phiên bản phân tán (VCS - Version Control System), giúp bạn theo
+                  dõi mọi thay đổi trong mã nguồn của dự án, từ đó có thể hợp và làm việc nhóm một cách dễ dàng và hiệu
+                  quả</p>
+            <p>b. Tại sao cần dùng Git</p>
+            <ul>
+                  <li>Theo dõi sự thay đổi của dự án</li>
+                  <li>Dễ dàng quay lại phiên bản trước đó nếu có lỗi</li>
+                  <li>Hỗ trợ làm việc nhóm nhiều người trên cùng 1 dự án</li>
+            </ul>
+            <p>c. Khái niệm cơ bản</p>
+            <ul>
+                  <li>Repo (Repository): kho lưu trữ mã nguồn, nơi chứa toàn bộ các file và lịch sử thay đổi của dự án
+                        <ul>
+                              <li>Local repo: Đây là repo được thiết lập trên máy của lập trình viên và dành cho 1 người
+                                    sử dụng</li>
+                              <li>Remote repo: Đây là repo để chia sẽ giữa nhiều người và bố trí trên server chuyên dụng
+                              </li>
+                        </ul>
+                  </li>
+                  <li>Branch: Tương tự như một workspace mới mà không ảnh hưởng tới nhánh chính</li>
+                  <li>Commit: là hành động ghi lại sự thay đổi trong repo của bạn</li>
+                  <li>Clone: là hành động tải một bản sao có sẵn của một remote repo server nào đó có sẵn</li>
+                  <li>Push: là hành động đưa các commit từ local repo lên remote repo</li>
+            </ul>
+            <p>d. Cài đặt Git</p>
+            <ol>
+                  <li>
+                        <p><a href="https://git-scm.com/downloads?ref=blog.haposoft.com">Dowload Git</a></p>
+                  </li>
+                  <li>
+                        <p>Thiết lập thông tin cá nhân của mình với Git</p>
+                  </li>
+            </ol>
+            <ul>
+                  <li>Mục đích của việc thiết lập thông tin cá nhân trên Git (bao gồm tên và địa chỉ email) là để Git có
+                        thể xác định người thực hiện các hành động trong quá trình quản lý phiên bản (version control).
+                        Tức là khi thực hiện một commit trong Git, thông tin cá nhân như tên và email sẽ được ghi lại
+                        cùng với commit đó.</li>
+            </ul>
+            <pre data-role="codeBlock" data-info="c" class="language-c c"><code>git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>name <span class="token string">"Tên của bạn"</span>
+git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>email <span class="token string">"email@example.com"</span>
+git config <span class="token operator">--</span>list
+</code></pre>
+            <ol start="3">
+                  <li>Các lệnh cơ bản khi dùng <code>Git</code></li>
+            </ol>
+            <ul>
+                  <li>Khởi tạo và sao chép</li>
+            </ul>
+            <pre data-role="codeBlock" data-info="c" class="language-c c"><code>git init                     # Khởi tạo repo Git mới
+git clone <span class="token operator">&lt;</span>url<span class="token operator">&gt;</span>              # Sao chép một repo từ GitHub<span class="token operator">/</span>GitLab<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+</code></pre>
+            <ul>
+                  <li>Theo dõi và thay đổi</li>
+            </ul>
+            <pre data-role="codeBlock" data-info="c" class="language-c c"><code>git status                   # Kiểm tra trạng thái file
+git add <span class="token operator">&lt;</span>file<span class="token operator">&gt;</span>               # Thêm file vào staging area
+git add <span class="token punctuation">.</span>                    # Thêm tất cả file vào staging
+git commit <span class="token operator">-</span>m <span class="token string">"Thông điệp"</span>   # Tạo commit mới
+</code></pre>
+            <ul>
+                  <li>Đẩy và lấy dữ liệu</li>
+            </ul>
+            <pre data-role="codeBlock" data-info="c" class="language-c c"><code>git push                     # Đẩy code lên repository 
+git push origin main         # Đẩy code lên nhánh main
+git pull                     # Kéo code mới nhất từ repo về
+</code></pre>
+            <ul>
+                  <li>Quản lý nhánh (Branch)</li>
+            </ul>
+            <pre data-role="codeBlock" data-info="c" class="language-c c"><code>git branch                   # Liệt kê các nhánh
+git branch <span class="token operator">&lt;</span>ten<span class="token operator">-</span>nhanh<span class="token operator">&gt;</span>       # Tạo nhánh mới
+git checkout <span class="token operator">&lt;</span>ten<span class="token operator">-</span>nhanh<span class="token operator">&gt;</span>     # Chuyển sang nhánh khác
+git checkout <span class="token operator">-</span>b <span class="token operator">&lt;</span>ten<span class="token operator">-</span>nhanh<span class="token operator">&gt;</span>  # Tạo và chuyển sang nhánh mới
+git merge <span class="token operator">&lt;</span>ten<span class="token operator">-</span>nhanh<span class="token operator">&gt;</span>        # Gộp nhánh vào nhánh hiện tại
+git branch <span class="token operator">-</span>d <span class="token operator">&lt;</span>ten<span class="token operator">-</span>nhanh<span class="token operator">&gt;</span>    # Xoá nhánh đã gộp
+</code></pre>
+            <h5 id="2-github">2. Github </h5>
+            <p>a. Github là gì?</p>
+            <ul>
+                  <li>GitHub là một nền tảng dựa trên web được thiết kế để lưu trữ mã nguồn và hỗ trợ quản lý phiên bản
+                        (version control) bằng cách sử dụng Git. Nó cung cấp không gian lưu trữ cho các dự án mã nguồn
+                        (repository) và các công cụ để quản lý, theo dõi và làm việc trong các dự án phần mềm.</li>
+            </ul>
+            <p>b. Liên kết Git và Github</p>
+            <ul>
+                  <li>Khi liên kết Git và Github, mã nguồn sẽ được lưu trữ online, tức bạn có thể truy cập đến mã nguồn
+                        của mình từ bất cứ đâu, chỉ cần có mạng Internet</li>
+                  <li>Giúp sao lưu dữ liệu tránh trường hợp dữ liệu bị mất hay máy tính hỏng học</li>
+                  <li>Giúp chia sẻ mã nguồn và làm việc nhóm với các công cụ, tính năng giúp kiểm soát mã nguồn, xử lý
+                        lỗi</li>
+            </ul>
+            <ol>
+                  <li>Tạo tài khoản Github và tạo repo mới</li>
+            </ol>
+            <ul>
+                  <li>Sau khi tạo tài khoản để tạo một repo mới làm được nhấn vào button <code>new</code> như hình này:
+                  </li>
+            </ul>
+            <p><img src="new.png" alt="example"></p>
+            <ul>
+                  <li>Sau khi vào trang chính của tạo repo chúng ta đặt tên cho repo chuẩn bị tạo bằng cách nhập tên vào
+                        ô <code>input</code> như hình":</li>
+            </ul>
+            <p><img src="name.png" alt="example"></p>
+            <ul>
+                  <li>Cuối cùng kéo xuống dưới và nhấn vào <code>Create repository</code>:</li>
+            </ul>
+            <p><img src="create.png" alt="example"></p>
+            <ol start="2">
+                  <li>Kết nối folder trong máy tính với repo trên Github<br>
+                        B1: Tạo một folder bất kỳ trên Laptop</li>
+            </ol>
+            <p><img src="tao.png" alt="example"></p>
+            <p>B2: Click chuột phải vào folder vừa tạo chọn <code>Show more options</code> sau đó chọn
+                  <code>Git Bash</code>:
+            </p>
+            <p><img src="bash.png" alt="example"></p>
+            <p>B3: Sau khi hiển thị bảng như hình</p>
+            <p><img src="table.png" alt="alt text"></p>
+            <p>thì chúng ta copy code ở gitHub vào đó</p>
+            <p><img src="copy.png" alt="alt text"></p>
+            <p><img src="run.png" alt="alt text"></p>
+            <p>B4: Sau khi code chạy xong load lại trang ở gitHub<br>
+                  3. Github Page<br>
+                  B1: mở folder vừa tạo trong VS code.<br>
+                  B2: Tạo một file có tên là <code>index.html</code>.<br>
+                  B3: Copy đoạn code sau vào file vừa tạo.</p>
+            <pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token operator">&lt;</span><span class="token operator">!</span>DOCTYPE html<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>html lang<span class="token operator">=</span><span class="token string">"en"</span><span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>head<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>meta charset<span class="token operator">=</span><span class="token string">"UTF-8"</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>meta name<span class="token operator">=</span><span class="token string">"viewport"</span> content<span class="token operator">=</span><span class="token string">"width=device-width, initial-scale=1.0"</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>title<span class="token operator">&gt;</span>Document<span class="token operator">&lt;</span><span class="token operator">/</span>title<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>head<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>body<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>h1<span class="token operator">&gt;</span>Hello anh em<span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>body<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>html<span class="token operator">&gt;</span>
+</code></pre>
+            <p>B4: Quay trở lại gitHub sau đó nhấn vào mục <code>Setting</code></p>
+            <p><img src="st.png" alt="alt text"></p>
+            <p>B5: Chọn vào phần Page</p>
+            <p><img src="page.png" alt="alt text"></p>
+            <p>B6: Ở phần <code>Branch</code> chọn <code>main</code> như ảnh:</p>
+            <p><img src="pg.png" alt="alt text"></p>
+            <p>B7: Nhấn vào button <code>Save</code> bên cạnh<br>
+                  B8: Đợi 1 lúc sau đó nhần vào <code>Visit site</code></p>
+            <p><img src="visit.png" alt="alt text"></p>
+            <p>B9: Thêm <code>index.html</code> (tên file vừa tạo ở bước 2)</p>
+            <p><img src="add.png" alt="alt text"></p>
+            <h4 id="iii-html-css">III. HTML, CSS </h4>
+            <hr>
+            <ol>
+                  <li>HTML</li>
+            </ol>
+            <ul>
+                  <li>HTML (HyperText Markup Language) là ngôn ngữ đánh dấu được sử dụng để tạo cấu trúc và nội dung cho
+                        một trang web.</li>
+                  <li>HTML không phải là ngôn ngữ lập trình mà là ngôn ngữ đánh dấu để sắp xếp các thành phần như văn
+                        bản, hình ảnh, liên kết, biểu mẫu, và các nội dung khác trên trang web.</li>
+            </ul>
+            <ol start="2">
+                  <li>CSS</li>
+            </ol>
+            <ul>
+                  <li>CSS (Cascading Style Sheets) là ngôn ngữ dùng để mô tả cách hiển thị của các phần tử HTML trên
+                        trang web.</li>
+                  <li>Nó quyết định về bố cục, màu sắc, kiểu chữ, kích thước, khoảng cách giữa các phần tử, v.v. CSS
+                        giúp trang web trông trực quan và dễ nhìn hơn.</li>
+            </ul>
+            <hr>
+
+      </div>
+</body>
+
+</html>

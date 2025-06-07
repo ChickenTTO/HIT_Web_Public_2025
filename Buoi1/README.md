@@ -21,18 +21,23 @@
 - HTML CSS Support 
 
 ![example](htmlsp.png)
+
 - Live sever 
 
 ![example](livesv.png)
+
 - Auto Close Tag
 
 ![example](att.png)
+
 - Auto Rename Tag
 
 ![example](atr.png)
+
 #### II. Git & Github
 ---
 ##### 1. Git
+
 a. Git là gì? Git là hệ thống quản lý phiên bản phân tán (VCS - Version Control System), giúp bạn theo dõi mọi thay đổi trong mã nguồn của dự án, từ đó có thể hợp và làm việc nhóm một cách dễ dàng và hiệu quả
 
 b. Tại sao cần dùng Git
@@ -52,9 +57,11 @@ c. Khái niệm cơ bản
 - Push: là hành động đưa các commit từ local repo lên remote repo
 
 d. Cài đặt Git
+
 1. [Dowload Git](https://git-scm.com/downloads?ref=blog.haposoft.com)
 
 2. Thiết lập thông tin cá nhân của mình với Git
+
 - Mục đích của việc thiết lập thông tin cá nhân trên Git (bao gồm tên và địa chỉ email) là để Git có thể xác định người thực hiện các hành động trong quá trình quản lý phiên bản (version control). Tức là khi thực hiện một commit trong Git, thông tin cá nhân như tên và email sẽ được ghi lại cùng với commit đó.
 ```c
 git config --global user.name "Tên của bạn"
@@ -62,6 +69,7 @@ git config --global user.email "email@example.com"
 git config --list
 ```
 3. Các lệnh cơ bản khi dùng `Git`
+
 - Khởi tạo và sao chép
 ```c
 git init                     # Khởi tạo repo Git mới
@@ -102,32 +110,43 @@ b. Liên kết Git và Github
 - Sau khi tạo tài khoản để tạo một repo mới làm được nhấn vào button `new` như hình này: 
 
 ![example](new.png)
+
 - Sau khi vào trang chính của tạo repo chúng ta đặt tên cho repo chuẩn bị tạo bằng cách nhập tên vào ô `input` như hình": 
 
 ![example](name.png)
+
 - Cuối cùng kéo xuống dưới và nhấn vào `Create repository`: 
 
 ![example](create.png)
+
 2. Kết nối folder trong máy tính với repo trên Github
+
 B1: Tạo một folder bất kỳ trên Laptop 
 
 ![example](tao.png)
+
 B2: Click chuột phải vào folder vừa tạo chọn `Show more options` sau đó chọn `Git Bash`:
 
 ![example](bash.png)
+
 B3: Sau khi hiển thị bảng như hình 
 
 ![alt text](table.png)
+
 thì chúng ta copy code ở gitHub vào đó 
 
 ![alt text](copy.png) 
 
 ![alt text](run.png) 
+
 B4: Sau khi code chạy xong load lại trang ở gitHub
+
 3. Github Page
+
 B1: mở folder vừa tạo trong VS code.
 B2: Tạo một file có tên là `index.html`.
 B3: Copy đoạn code sau vào file vừa tạo.
+
 ```c
 <!DOCTYPE html>
 <html lang="en">
@@ -141,22 +160,28 @@ B3: Copy đoạn code sau vào file vừa tạo.
 </body>
 </html>
 ```
+
 B4: Quay trở lại gitHub sau đó nhấn vào mục `Setting`
 
 ![alt text](st.png) 
+
 B5: Chọn vào phần Page 
 
 ![alt text](page.png)
+
 B6: Ở phần `Branch` chọn `main` như ảnh:
 
 ![alt text](pg.png)
+
 B7: Nhấn vào button `Save` bên cạnh
 B8: Đợi 1 lúc sau đó nhần vào `Visit site`
 
 ![alt text](visit.png)
+
 B9: Thêm `index.html` (tên file vừa tạo ở bước 2)
 
 ![alt text](add.png)
+
 #### III. HTML, CSS
 ---
 1. HTML
