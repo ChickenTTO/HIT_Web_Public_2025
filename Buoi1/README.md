@@ -1,13 +1,14 @@
 # Lộ trình lớp web public hè 2025
 ***
-#### Buổi 1 : Giới thiệu cài đặt IDE và Extensions
-#### Buổi 2: Cấu trúc HTML cơ bản & Semantic HTML
-#### Buổi 3: Giới thiệu CSS & Cách style cơ bản
-#### Buổi 4: Làm việc với Font, Biến, Bộ chọn & Quy tắc đặt tên trong CSS
-#### Buổi 5:Kỹ thuật chia layout với Flexbox
-#### Buổi 6: Position, Animation, Transition
-#### Buổi 7: CSS Grid & Thiết kế giao diện Responsive
-#### Buổi 8: Ôn tập tổng hợp & Kiểm tra cuối khóa
+#### Buổi 1: Làm quen & Chuẩn bị môi trường
+#### Buổi 2: Cấu trúc & Thẻ HTML cơ bản
+#### Buổi 3: Giới thiệu CSS & Kiến thức nền tảng
+#### Buổi 4: Selector, Ưu tiên & BEM
+#### Buổi 5: Flexbox
+#### Buổi 6: Position, Animation & Transition
+#### Buổi 7: Kiểm tra giữa khóa
+#### Buổi 8: CSS Grid & Responsive
+#### Buổi 9: Kiểm tra cuối khóa & Tổng kết
 ***
 
 
