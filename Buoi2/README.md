@@ -74,9 +74,12 @@ Trước khi bắt đầu tìm hiểu các thẻ cơ bản, các bạn hãy th�
 - B2:
 
   - Chọn `File` → Chọn `Add Folder to Workspace..`.
+
     ![add folder to workspace](./image/add-workspace.png)
+
   - Một cửa sổ chọn thư mục hiện lên. Tìm đến chọn thư mục `HIT15_WEB_PRIVATE` và nhấn `Add`
   - Nếu chưa thấy cửa sổ như sau, hãy nhìn qua hình thứ hai và bấm vào icon được gạch đỏ để thấy được folder `HIT15_WEB_PRIVATE`
+
     ![explorer](./image/explorer.png)
 
     ![open explorer](./image/open-explorer.png)
@@ -85,15 +88,23 @@ Nếu các bạn đã thêm được thư mục trên vào workspace, hãy tiế
 
 - B1: Tạo thư mục `week-2`
   - Click vào thư mục `HIT15_WEB_PRIVATE`
+
     ![alt](./image/click-folder.png)
+
   - Click vào icon được gạch đỏ, đặt tên `week-2` và nhấn enter
+
     ![alt](./image/add-folder.png)
+
     ![alt](./image/add-folder-result.png)
+
   - Tương tự như trên, click vào thư mục `week-2`, tiếp tục click vào icon được gạch đỏ, đặt tên `index.html` và nhấn enter
+
     ![alt](./image/add-file.png)
+
     ![alt](./image/add-file-result.png)
 
 Các bước ở trên là cách thêm 1 folder vào workspace, cách tạo folder, tạo file trong VSCode. Lúc này hãy nhìn sang bên phải chính là phần editor của VSCode.
+
 ![alt](./image/full-workspace.png)
 
 - Copy đoạn code cấu trúc cơ bản sau đây vào phần editor
@@ -116,7 +127,9 @@ Các bước ở trên là cách thêm 1 folder vào workspace, cách tạo fold
 ![alt](./image/base-html.png)
 
 - Nhấn chuột phải, chọn `Open with Live Server`. Sau khi thực hiện sẽ xuất hiện 1 trang web với chữ `Hello world` trên màn hình
+
   ![alt](./image/open-with-live-server.png)
+
   ![alt](./image/live-server-web.png)
 
 ❗ Một chút lưu ý:
@@ -204,17 +217,24 @@ Các bước ở trên là cách thêm 1 folder vào workspace, cách tạo fold
 
     - Nếu file ảnh nằm cùng cấp với file `.html`, tức cùng cấp, bạn chỉ cần ghi tên file ảnh:
       Ví dụ như hình dưới đây có file `image.png` và file `index.html` cùng cấp
+
       ![image](./image/image-1.png)
 
     - Nếu folder của bạn có cấu trúc như hình ảnh dưới đây:
+
       ![image](./image/image-3.png)
+
       Lúc này các bạn sử dụng `../` để quay lại thư mục cha chứa 2 folder `images` và `pages`, ở đây sẽ là thư mục `week-2`, sau đó tìm tới folder `images` → `image.png`
     - Nếu file ảnh nằm trong folder cùng cấp với file `index.html`:
+
       ![image](./image/image-4.png)
+
       Lúc này các bạn sử dụng `./` sẽ chỉ đến thư mục hiện tại chứa file `index.html`, tức folder `week-2`
 
     → Và có kết quả như sau:
+
     ![image](./image/image-2.png)
+
     ❗Bạn có thể sử dụng nhiều lần `../`. Hãy thử viết nó để biết kết quả như thế nào nhé.
 
 - Nguồn chi tiết hơn: 👉 [Ở đây!](https://www.w3schools.com/HTML/html_images.asp)
@@ -431,6 +451,7 @@ Các bước ở trên là cách thêm 1 folder vào workspace, cách tạo fold
 
 
 ## III. Semantic HTML
+
   ![image](./image/Se.png)
 
   ## 🔍 Giải thích từng thẻ
