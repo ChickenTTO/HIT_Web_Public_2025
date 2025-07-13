@@ -68,40 +68,26 @@
 
 ### 2. Các thẻ cơ bản
 
-Trước khi bắt đầu tìm hiểu các thẻ cơ bản, các bạn hãy thực hiện theo các bước sau đây để có thể mở thư mục `HIT15_WEB_PRIVATE` trong VSCode
+Trước khi bắt đầu tìm hiểu các thẻ cơ bản, các bạn hãy thực hiện theo các bước sau đây để có thể mở thư mục `HIT_WEB_PUBLIC` trong VSCode
 
 - B1: Mở VSCode
 - B2:
 
   - Chọn `File` → Chọn `Add Folder to Workspace..`.
 
-    ![add folder to workspace](./image/add-workspace.png)
 
-  - Một cửa sổ chọn thư mục hiện lên. Tìm đến chọn thư mục `HIT15_WEB_PRIVATE` và nhấn `Add`
-  - Nếu chưa thấy cửa sổ như sau, hãy nhìn qua hình thứ hai và bấm vào icon được gạch đỏ để thấy được folder `HIT15_WEB_PRIVATE`
+  - Một cửa sổ chọn thư mục hiện lên. Tìm đến chọn thư mục `HIT_WEB_PUBLIC` và nhấn `Add`
+  - Nếu chưa thấy cửa sổ như sau, hãy nhìn qua hình thứ hai và bấm vào icon được gạch đỏ để thấy được folder `HIT_WEB_PUBLIC`
 
-    ![explorer](./image/explorer.png)
-
-    ![open explorer](./image/open-explorer.png)
 
 Nếu các bạn đã thêm được thư mục trên vào workspace, hãy tiếp tục thực hiện theo các bước dưới đây để tạo ra thư mục `week-2` và file `index.html` đầu tiên:
 
 - B1: Tạo thư mục `week-2`
   - Click vào thư mục `HIT15_WEB_PRIVATE`
+  - Click vào biểu tượng Folder
 
-    ![alt](./image/click-folder.png)
 
-  - Click vào icon được gạch đỏ, đặt tên `week-2` và nhấn enter
-
-    ![alt](./image/add-folder.png)
-
-    ![alt](./image/add-folder-result.png)
-
-  - Tương tự như trên, click vào thư mục `week-2`, tiếp tục click vào icon được gạch đỏ, đặt tên `index.html` và nhấn enter
-
-    ![alt](./image/add-file.png)
-
-    ![alt](./image/add-file-result.png)
+  - Tương tự như trên, click vào thư mục, đặt tên `index.html` và nhấn enter
 
 Các bước ở trên là cách thêm 1 folder vào workspace, cách tạo folder, tạo file trong VSCode. Lúc này hãy nhìn sang bên phải chính là phần editor của VSCode.
 
@@ -124,13 +110,9 @@ Các bước ở trên là cách thêm 1 folder vào workspace, cách tạo fold
 </html>
 ```
 
-![alt](./image/base-html.png)
 
 - Nhấn chuột phải, chọn `Open with Live Server`. Sau khi thực hiện sẽ xuất hiện 1 trang web với chữ `Hello world` trên màn hình
 
-  ![alt](./image/open-with-live-server.png)
-
-  ![alt](./image/live-server-web.png)
 
 ❗ Một chút lưu ý:
 
@@ -230,10 +212,6 @@ Các bước ở trên là cách thêm 1 folder vào workspace, cách tạo fold
       ![image](./image/image-4.png)
 
       Lúc này các bạn sử dụng `./` sẽ chỉ đến thư mục hiện tại chứa file `index.html`, tức folder `week-2`
-
-    → Và có kết quả như sau:
-
-    ![image](./image/image-2.png)
 
     ❗Bạn có thể sử dụng nhiều lần `../`. Hãy thử viết nó để biết kết quả như thế nào nhé.
 
