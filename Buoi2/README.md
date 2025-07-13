@@ -73,14 +73,14 @@ Trước khi bắt đầu tìm hiểu các thẻ cơ bản, các bạn hãy th�
 - B1: Mở VSCode
 - B2:
 
-  - Chọn `File` → Chọn `Add Folder to Workspace..`.
+  - Chọn `File` → Chọn `Open Folder` hoặc nhấn tổ hợp phím `Ctrl + O`.
 
+    ![image](./image/of.png)
 
   - Một cửa sổ chọn thư mục hiện lên. Tìm đến chọn thư mục `HIT_WEB_PUBLIC` và nhấn `Add`
-  - Nếu chưa thấy cửa sổ như sau, hãy nhìn qua hình thứ hai và bấm vào icon được gạch đỏ để thấy được folder `HIT_WEB_PUBLIC`
 
 
-Nếu các bạn đã thêm được thư mục trên vào workspace, hãy tiếp tục thực hiện theo các bước dưới đây để tạo ra thư mục `week-2` và file `index.html` đầu tiên:
+Nếu các bạn đã thêm được thư mục trên ,hãy tiếp tục thực hiện theo các bước dưới đây để tạo ra thư mục `week-2` và file `index.html` đầu tiên:
 
 - B1: Tạo thư mục `week-2`
   - Click vào thư mục `HIT15_WEB_PRIVATE`
@@ -89,7 +89,7 @@ Nếu các bạn đã thêm được thư mục trên vào workspace, hãy tiế
 
   - Tương tự như trên, click vào thư mục, đặt tên `index.html` và nhấn enter
 
-Các bước ở trên là cách thêm 1 folder vào workspace, cách tạo folder, tạo file trong VSCode. Lúc này hãy nhìn sang bên phải chính là phần editor của VSCode.
+Các bước ở trên là cách thêm 1 folder vào VS Code, cách tạo folder, tạo file trong VSCode. Lúc này hãy nhìn sang bên phải chính là phần editor của VSCode.
 
 
 - Copy đoạn code cấu trúc cơ bản sau đây vào phần editor
