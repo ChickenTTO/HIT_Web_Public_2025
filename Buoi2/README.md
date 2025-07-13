@@ -91,7 +91,6 @@ Nếu các bạn đã thêm được thư mục trên vào workspace, hãy tiế
 
 Các bước ở trên là cách thêm 1 folder vào workspace, cách tạo folder, tạo file trong VSCode. Lúc này hãy nhìn sang bên phải chính là phần editor của VSCode.
 
-![alt](./image/full-workspace.png)
 
 - Copy đoạn code cấu trúc cơ bản sau đây vào phần editor
 
@@ -200,17 +199,10 @@ Các bước ở trên là cách thêm 1 folder vào workspace, cách tạo fold
     - Nếu file ảnh nằm cùng cấp với file `.html`, tức cùng cấp, bạn chỉ cần ghi tên file ảnh:
       Ví dụ như hình dưới đây có file `image.png` và file `index.html` cùng cấp
 
-      ![image](./image/image-1.png)
-
     - Nếu folder của bạn có cấu trúc như hình ảnh dưới đây:
-
-      ![image](./image/image-3.png)
 
       Lúc này các bạn sử dụng `../` để quay lại thư mục cha chứa 2 folder `images` và `pages`, ở đây sẽ là thư mục `week-2`, sau đó tìm tới folder `images` → `image.png`
     - Nếu file ảnh nằm trong folder cùng cấp với file `index.html`:
-
-      ![image](./image/image-4.png)
-
       Lúc này các bạn sử dụng `./` sẽ chỉ đến thư mục hiện tại chứa file `index.html`, tức folder `week-2`
 
     ❗Bạn có thể sử dụng nhiều lần `../`. Hãy thử viết nó để biết kết quả như thế nào nhé.
