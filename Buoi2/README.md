@@ -73,9 +73,9 @@ Trước khi bắt đầu tìm hiểu các thẻ cơ bản, các bạn hãy th�
 - B1: Mở VSCode
 - B2:
 
-  - Chọn `File` → Chọn `Open Folder` hoặc nhấn tổ hợp phím `Ctrl + O`.
+  - Chọn `File` → Chọn `Open Folder` hoặc nhấn tổ hợp phím `Ctrl + K Ctrl + O`.
 
-    ![image](./image/of.png)
+    ![image](./image/off.png)
 
   - Một cửa sổ chọn thư mục hiện lên. Tìm đến chọn thư mục `HIT_WEB_PUBLIC` và nhấn `Add`
 
@@ -129,7 +129,7 @@ Các bước ở trên là cách thêm 1 folder vào VS Code, cách tạo folder
 
   ```html
   <h1>Heading 1</h1>
-  <h2>Heading 2</h2>
+  <h2>Heading 2</h2> 
   <h3>Heading 3</h3>
   <h4>Heading 4</h4>
   <h5>Heading 5</h5>
