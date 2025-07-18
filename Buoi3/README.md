@@ -2,20 +2,22 @@
 
 ## Nội dung
 
-### [I. Giới thiệu CSS](#i-giới-thiệu-css)
-### [II. Comment trong CSS](#ii-comment-trong-css)
-### [III. Các cách style trang web](#iii-các-cách-style-trang-web)
-### [IV. Viết CSS như thế nào?](#iv-viết-css-như-thế-nào)
-### [V. Các thuộc tính CSS cơ bản](#v-các-thuộc-tính-css-cơ-bản)
-### [VI. Reset CSS](#vi-reset-css)
+### [I. Giới thiệu CSS](#phan-1)
+### [II. Comment trong CSS](#phan-2)
+### [III. Các cách style trang web](#phan-3)
+### [IV. Viết CSS như thế nào?](#phan-4)
+### [V. Các thuộc tính CSS cơ bản](#phan-5)
+### [VI. Reset CSS](#phan-6)
+
 ---
 
-## I. Giới thiệu CSS
+## <a id="phan-1"></a>I. Giới thiệu CSS
 
 - CSS (Cascading Style Sheets) là ngôn ngữ dùng để mô tả cách hiển thị của các phần tử HTML (h1, table, p, . . .) trên trang web.
 - Nó quyết định về bố cục, màu sắc, kiểu chữ, kích thước, khoảng cách giữa các phần tử, v.v. CSS giúp trang web đẹp hơn.
 
-## II. Comment trong CSS
+## <a id="phan-2"></a>II. Comment trong CSS
+
 
 - Comments giúp ghi chú mã và được trình duyệt bỏ qua
 
@@ -25,7 +27,7 @@
 /* Đây là một comment trong CSS */
 ```
 
-## III. Các cách style trang web
+## <a id="phan-3"></a>III. Các cách style trang web
 
 Có 3 cách để áp dụng style vào trang web
 
@@ -88,7 +90,7 @@ p {
 
 - External css: đây là cách style được dùng nhiều nhất.
 
-### IV. Viết CSS như thế nào
+## <a id="phan-4"></a>IV. Viết CSS như thế nào?
 
 - Có 2 phần, chọn được phần tử html mình muốn chọn và thêm thuộc tính mình muốn.
 
@@ -142,7 +144,7 @@ p {
 
 ![alt text](./image/buoi2-1.png)
 
-### V. Các thuộc tính CSS cơ bản
+## <a id="phan-5"></a>V. Các thuộc tính CSS cơ bản
 
 #### 1. CSS Units (Đơn vị)
 
@@ -502,7 +504,7 @@ Giả sử bạn có một phần tử `<div>` và muốn nó có `width` là `2
 - Có thể áp dụng padding, margin, và border cho cả chiều ngang và chiều dọc.
   ![block](./image/buoi2-5.png)
 
-### VI. Reset CSS
+## <a id="phan-6"></a>VI. Reset CSS
 
 - Reset CSS đặt lại các giá trị mặc định của trình duyệt cho các phần tử (như khoảng cách `margin`, `padding`, `font-size`,...), giúp tăng tính nhất quán khi hiển thị trên các trình duyệt khác nhau.
 - Reset css thường được dùng mọi file css, và đặt ở đầu file
