@@ -3,17 +3,11 @@
 ## Nội dung
 
 ### [I. Giới thiệu CSS](#i-giới-thiệu-css)
-
 ### [II. Comment trong CSS](#ii-comment-trong-css)
-
-### [III. Các cách style trang web ](#iii-các-cách-style-trang-web)
-
+### [III. Các cách style trang web](#iii-các-cách-style-trang-web)
 ### [IV. Viết CSS như thế nào?](#iv-viết-css-như-thế-nào)
-
 ### [V. Các thuộc tính CSS cơ bản](#v-các-thuộc-tính-css-cơ-bản)
-
 ### [VI. Reset CSS](#vi-reset-css)
-
 ---
 
 ## I. Giới thiệu CSS
