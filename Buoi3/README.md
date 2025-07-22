@@ -507,7 +507,7 @@ Giả sử bạn có một phần tử `<div>` và muốn nó có `width` là `2
 ## <a id="phan-6"></a>VI. Reset CSS
 
 - Reset CSS đặt lại các giá trị mặc định của trình duyệt cho các phần tử (như khoảng cách `margin`, `padding`, `font-size`,...), giúp tăng tính nhất quán khi hiển thị trên các trình duyệt khác nhau.
-- Reset css thường được dùng mọi file css, và đặt ở đầu file
+- Reset css thường được đặt ở đầu file
 ```css
 * {
   /* Xóa margin, padding và border mặc định */
