@@ -1,10 +1,4 @@
-# HIT15-WEB-PRIVATE-2024 - WEEK 4
-
----
-
-## [Home](../README.html)
-
----
+# HIT-WEB-PUBLIC-2025 - WEEK 4
 
 ## Nội dung
 
