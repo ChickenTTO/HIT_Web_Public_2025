@@ -2,15 +2,15 @@
 
 ## Nội dung
 
-### [I. CSS Selector](#css-selector)
+### [I. CSS Selector](#css-selector-1)
 
-### [II. Thứ tự ưu tiên CSS](#ii-thứ-tự-ưu-tiên-css)
+### [II. Thứ tự ưu tiên CSS](#ii-thứ-tự-ưu-tiên-css-1)
 
-### [III. CSS Variables](#iii-css-variables)
+### [III. CSS Variables](#iii-css-variables-1)
 
-### [IV. Quy tắc đặt tên BEM](#iv-quy-tắc-đặt-tên-bem)
+### [IV. Quy tắc đặt tên BEM](#iv-quy-tắc-đặt-tên-bem-1)
 
-### [V. Nhúng Icon, nhúng Font](#v-nhúng-icon-nhúng-font)
+### [V. Nhúng Icon, nhúng Font](#v-nhúng-icon-nhúng-font-1)
 
 ---
 
