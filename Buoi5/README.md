@@ -2,10 +2,6 @@
 
 ---
 
-## [Home](../README.html)
-
----
-
 ## Nội dung
 
 ### [I. Các khái niệm cơ bản trong Flexbox](#i-các-khái-niệm-cơ-bản-trong-flexbox)
