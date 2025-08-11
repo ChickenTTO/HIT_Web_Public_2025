@@ -3,11 +3,11 @@
 
 ## Nội dung
 
-## [I. CSS Position](#i-css-position)
+## [I. CSS Position](#i-css-position-1)
 
-## [II. CSS Animation](#ii-css-animation)
+## [II. CSS Animation](#ii-css-animation-1)
 
-## [III. CSS Transition](#iii-css-transition)
+## [III. CSS Transition](#iii-css-transition-1)
 
 ---
 
