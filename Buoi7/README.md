@@ -113,22 +113,22 @@ Ví dụ:
 
 ##### **3. Khoảng cách giữa các hàng và cột**
 
-- **`grid-gap`**: Khoảng cách giữa các hàng và cột.
+- **`gap`**: Khoảng cách giữa các hàng và cột.
 
 ```css
 .container {
   display: grid;
-  grid-gap: 20px; /* Khoảng cách 20px giữa các hàng và cột */
+  gap: 20px; /* Khoảng cách 20px giữa các hàng và cột */
 }
 ```
 
-- **`grid-row-gap`** và **`grid-column-gap`**: Định nghĩa khoảng cách riêng biệt cho hàng và cột.
+- **`row-gap`** và **`column-gap`**: Định nghĩa khoảng cách riêng biệt cho hàng và cột.
 
 ```css
 .container {
   display: grid;
-  grid-row-gap: 10px; /* Khoảng cách giữa các hàng */
-  grid-column-gap: 15px; /* Khoảng cách giữa các cột */
+  row-gap: 10px; /* Khoảng cách giữa các hàng */
+  column-gap: 15px; /* Khoảng cách giữa các cột */
 }
 ```
 
