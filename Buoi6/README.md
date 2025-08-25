@@ -13,7 +13,7 @@
 
 # I. **CSS Position**
 
-`CSS Position` là thuộc tính dùng để định vị và kiểm soát cách các phần tử xuất hiện trên trang web. Nó cho phép các phần tử di chuyển linh hoạt hoặc cố định trong giao diện tùy theo nhu cầu thiết kế.
+`CSS Position` là thuộc tính dùng để định vị và kiểm soát cách các phần tử xuất hiện trên trang web. Nó cho phép các phần tử di chuyển linh hoạt hoặc cố định trong giao diện tùy theo nhu cầu thiết kế .
 
 Dưới đây là các giá trị phổ biến của thuộc tính `position`:
 
