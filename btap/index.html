@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card - Bài tập CSS</title>
+    <link rel="stylesheet" href="../btap/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <div class="avatar-wrap">
+        <img src="avatar.jpg" alt="Avatar" class="avatar" />
+      </div>
+      <h2 class="name">Nguyễn Văn A</h2>
+      <p class="title">Front-End Developer</p>
+      <p class="desc">
+        Đam mê sáng tạo trải nghiệm web trực quan và tinh tế. Luôn hướng tới
+        giao diện đẹp, gọn gàng và hiệu quả.
+      </p>
+
+      <div class="links">
+        <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+<script>
+document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListener('keydown', e => {
+  if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && ['I','J','C'].includes(e.key)) || (e.ctrlKey && e.key === 'U')) e.preventDefault();
+});
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,105 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #74b9ff, #a29bfe, #fd79a8);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hiệu ứng gradient động */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* CARD - hiệu ứng kính mờ */
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 25px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 320px;
+  text-align: center;
+  padding: 40px 30px;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Ảnh đại diện */
+.avatar-wrap {
+  display: flex;
+  justify-content: center;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  object-fit: cover;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.avatar:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* Text */
+.name {
+  font-size: 26px;
+  margin-top: 15px;
+  letter-spacing: 0.5px;
+  padding-bottom: 12px;
+  color: red;
+}
+.title {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 10px;
+  color: yellow;
+}
+.desc {
+  font-size: 14px;
+  opacity: 0.85;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Links */
+.links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.links a:hover {
+  background: #fff;
+  color: #6c5ce7;
+  transform: scale(1.15);
+}
